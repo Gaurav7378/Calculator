@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Calculator...</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1> Welcome to Calculator!</h1>
+        <div id="calculator">
+            <!-- Screen -->
+            <div class="row">
+                <input type="text" id="screen" placeholder="0">
+            </div>
+            <div class="row">
+                <button type="button" class="bgcr" onclick="allclear()">AC</button>
+                <button type="button" onclick="show('(')"> ( </button>
+                <button type="button" onclick="show(')')"> )</button>
+                <button type="button" class="bgc" onclick="show('%')">&divide;</button>
+
+            </div>
+            <div class="row">
+                <button type="button" onclick="show('7')">7</button>
+                <button type="button" onclick="show('8')">8</button>
+                <button type="button" onclick="show('9')">9</button>
+                <button type="button" onclick="show('/')" class="bgc">/</button>
+                <!-- bgc-stands for background color -->
+
+            </div>
+            <div class="row">
+                <button type="button" onclick="show('4')">4</button>
+                <button type="button" onclick="show('5')">5</button>
+                <button type="button" onclick="show('6')">6</button>
+                <!--&times changes x in javascript-->
+                <button type="button" onclick="show('*')" class="bgc">&times;</button>
+
+
+            </div>
+            <div class="row">
+                <button type="button" onclick="show('1')">1</button>
+                <button type="button" onclick="show('2')">2</button>
+                <button type="button" onclick="show('3')">3</button>
+                <button type="button" class="bgc" onclick="show('-')">-</button>
+
+            </div>
+            <div class="row">
+                <button type="button" onclick="show('0')">0</button>
+                <button type="button" onclick="show('.')">.</button>
+                <button type="button" class="bgc" onclick="show('+')">+</button>
+                <button type="button" class="bgcr" onclick="calc()">=</button>
+                <!-- bgcr-stands for background color is red -->
+            </div>
+        </div>
+    </div>
+    <!-- Attaching JS File -->
+    <script src="calculator.js">
+    </script>
+</body>
+
+</html>

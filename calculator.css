@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Main Container */
+
+.container {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 20px -20px;
+}
+
+
+/*  Division for all buttons */
+
+#calculator {
+    border: 2px solid black;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 31, 31);
+    border-radius: 10px;
+    /* height: 500px; */
+    margin-top: 78px;
+    margin-left: -327px;
+    /* flex-wrap: wrap; */
+}
+
+
+/* CSS For Screen */
+
+input {
+    height: 60px;
+    width: 352px;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-color: rgb(225, 243, 245);
+    font-size: 2.0rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* CSS For All Buttons */
+
+button {
+    height: 77px;
+    width: 77px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border: 3px solid black;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: rgb(240, 234, 234);
+}
+
+.bgc {
+    background-color: skyblue;
+}
+
+.bgcr {
+    background-color: tomato;
+}
